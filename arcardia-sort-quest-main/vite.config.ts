@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-  base: '/arcardia-sort-quest/',
+  base: '/arhack/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
